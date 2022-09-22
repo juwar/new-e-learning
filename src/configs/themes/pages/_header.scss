@@ -1,0 +1,50 @@
+@import "../variables";
+
+.MuiPaper-root.Header__wrapper {
+  background-color: $background-color-primary;
+  box-shadow: none;
+  min-height: 2rem;
+  justify-content: center;
+
+  .Header__toolbar-wrapper {
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    .Header__left-content {
+      display: flex;
+      flex-direction: row;
+      flex: 1;
+      justify-content: flex-start;
+
+      .Header__title {
+        color: $font-color-primary;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 2rem;
+        font-family: "Jost", sans-serif;
+      }
+    }
+
+    .Header__nav-link {
+      display: flex;
+      flex-direction: row;
+      flex: 1;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    .Header__right-content {
+      display: flex;
+      flex-direction: row;
+      flex: 1;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 1rem;
+    }
+  }
+
+  .MuiToolbar-root {
+    gap: 2rem;
+  }
+}

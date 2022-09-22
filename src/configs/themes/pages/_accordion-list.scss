@@ -1,0 +1,25 @@
+@import "../variables";
+
+.AccordionList__wrapper {
+  // border: 0.1rem solid $border-color-primary;
+  .MuiTypography-root {
+    font-family: "Jost", sans-serif;
+    font-size: 1.2rem;
+  }
+
+  .MuiAccordionSummary-content {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+
+  .MuiAccordionSummary-content .MuiTypography-root, svg {
+    color: $font-color-blue;
+    font-weight: 500;
+    font-size: 1.4rem;
+  }
+
+  .Mui-expanded {
+    border-radius: 0.4rem;
+  }
+}

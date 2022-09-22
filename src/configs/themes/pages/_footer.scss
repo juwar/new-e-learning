@@ -1,0 +1,40 @@
+@import "../variables";
+
+.Footer__wrapper {
+  min-width: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: sticky;
+  background-color: $background-color-primary;
+  padding: 0.3rem 1rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+  .Footer__left-content {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: flex-start;
+
+    .Footer__title {
+      color: $font-color-primary;
+      text-transform: capitalize;
+      font-weight: 500;
+      font-size: 1rem;
+      font-family: "Jost", sans-serif;
+    }
+  }
+
+  .Footer__right-content {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.5rem;
+
+    svg {
+      color: $background-color-secondary;
+    }
+  }
+}

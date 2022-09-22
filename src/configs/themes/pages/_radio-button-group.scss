@@ -1,0 +1,54 @@
+@import "../variables";
+
+.MuiFormControl-root.RadioButtonsGroup__wrapper {
+  display: flex;
+
+  .MuiFormLabel-root,
+  .MuiFormLabel-root.Mui-focused {
+    font-family: "Jost", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: $font-color-black;
+  }
+
+  .MuiTypography-root {
+    font-size: 1.2rem;
+    color: #424242;
+  }
+
+  .RadioButtonsGroup__answer-box {
+    padding-top: 1rem;
+  }
+
+  .RadioButtonsGroup__radio-box,
+  .RadioButtonsGroup__checked {
+    margin: 0.3rem;
+    border-radius: 0.3rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+
+  .RadioButtonsGroup__radio-box {
+    background-color: $font-color-secondary;
+  }
+
+  .RadioButtonsGroup__checked {
+    background-color: #29b6f6;
+    .MuiTypography-root, svg {
+      color: $font-color-secondary;
+    }
+  }
+  
+  .RadioButtonsGroup__correct {
+    background-color: #5de094;
+    .MuiTypography-root, svg {
+      color: $font-color-secondary;
+    }
+  }
+
+  .RadioButtonsGroup__incorrect {
+    background-color: #f44336;
+    .MuiTypography-root, svg {
+      color: $font-color-secondary;
+    }
+  }
+}

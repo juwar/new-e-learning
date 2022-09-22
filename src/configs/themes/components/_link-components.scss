@@ -1,0 +1,15 @@
+@import "../variables";
+
+.MuiTypography-root.LinkComponent__wrapper {
+  .MuiTypography-root {
+    font-family: "Jost", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #120f2d;
+    outline: none;
+    text-transform: none;
+    &:hover {
+      color: #2878eb;
+    }
+  }
+}

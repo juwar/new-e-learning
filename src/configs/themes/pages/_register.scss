@@ -1,0 +1,53 @@
+@import "../variables";
+
+.MuiContainer-root.Register__wrapper {
+  display: flex;
+  justify-content: center;
+  min-width: 100%;
+  min-height: 89vh;
+  background-color: $background-color-secondary;
+
+  .Register__icon {
+    color: $font-color-primary;
+    font-size: 4rem;
+  }
+
+  .MuiFormLabel-root,
+  .MuiInputBase-input,
+  .MuiTypography-root {
+    font-family: "Jost", sans-serif;
+    color: $font-color-blue;
+  }
+
+  .MuiTypography-root.Register__text-header {
+    color: $font-color-blue;
+    font-weight: 500;
+  }
+  .MuiTypography-root.Register__text-sub-header {
+    color: $font-color-blue2;
+  }
+
+  .Register__box {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    max-width: 50vh;
+    padding: 2rem;
+    align-items: center;
+    background-color: $background-color-primary;
+    border-radius: 0.5rem;
+    border: solid 0.1rem $border-color-info;
+  }
+
+  .Register__box .Register__form {
+    .MuiInputBase-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+      border-color: $border-color-primary;
+    }
+    .MuiInputBase-root .MuiOutlinedInput-notchedOutline {
+      border-color: $border-color-primary;
+    }
+    .MuiFormLabel-root {
+      color: $font-color-blue;
+    }
+  }
+}

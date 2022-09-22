@@ -1,0 +1,33 @@
+@import "../variables";
+
+.ListsComponent__wrapper {
+  .MuiTypography-root {
+    font-family: "Jost", sans-serif;
+    color: $font-color-blue2;
+    font-weight: 400;
+  }
+
+  .ListsComponent__color-red {
+    .MuiTypography-root, svg {
+      color: #f44336;
+    }
+  }
+
+  .ListsComponent__color-blue {
+    .MuiTypography-root, svg {
+      color: #2196f3;
+    }
+  }
+
+  .ListsComponent__color-purple {
+    .MuiTypography-root, svg {
+      color: #9c27b0;
+    }
+  }
+
+  .ListsComponent__color-teal {
+    .MuiTypography-root, svg {
+      color: #009688;
+    }
+  }
+}

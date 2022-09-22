@@ -1,0 +1,14 @@
+@import "../variables";
+
+.MuiButtonBase-root.ButtonComponent_wrapper {
+  background-color: $background-color-secondary;
+  box-shadow: none;
+  .MuiTypography-root {
+    font-family: "Jost", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    outline: none;
+    text-transform: none;
+    color: $font-color-secondary;
+  }
+}

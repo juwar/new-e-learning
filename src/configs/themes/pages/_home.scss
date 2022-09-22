@@ -1,0 +1,39 @@
+@import "../variables";
+
+.Home__wrapper {
+  min-height: 100vh;
+  min-width: 100vh;
+  position: relative;
+  .Home__backgrund {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100vh;
+    background-image: linear-gradient(
+        rgba(40, 120, 235, 0.9),
+        rgba(40, 120, 235, 0.9)
+      ),
+      url('../../../src/assets/img/header.jpg');
+    background-size: cover;
+    content: "";
+  }
+
+  .Home__backgrund .Home__title {
+    color: $font-color-secondary;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    font-style: italic;
+  }
+
+  .Home__backgrund .Home__title-secondary {
+    color: $font-color-secondary;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 6rem;
+    font-family: "Jost", sans-serif;
+  }
+}
